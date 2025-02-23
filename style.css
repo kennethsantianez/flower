@@ -984,3 +984,30 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+.floating-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: transparent; /* Make background fully transparent */
+  color: white;
+  border: 2px solid rgba(57, 198, 214, 0.8); /* Add a semi-transparent border */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.floating-button:hover {
+  background: rgba(57, 198, 214, 0.2); /* Light transparent fill on hover */
+  border-color: white; /* Change border to white */
+}
+.floating-button img {
+  filter: brightness(0) invert(1);
+}
+
+.floating-button:hover img {
+  filter: brightness(0) invert(1);
+}
