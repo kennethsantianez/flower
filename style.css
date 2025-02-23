@@ -991,8 +991,8 @@ body {
   background: transparent; /* Make background fully transparent */
   color: white;
   border: 2px solid rgba(57, 198, 214, 0.8); /* Add a semi-transparent border */
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 3px 7px;
+  font-size: 5px;
   cursor: pointer;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
