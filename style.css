@@ -1002,7 +1002,7 @@ body {
 /* Hover effect */
 .floating-button:hover {
   background: rgba(57, 198, 214, 0.2); /* Light transparent fill on hover */
-  border-color: white; /* Change border to white */
+  border-color: #fff; /* Change border to white */
 }
 .floating-button img {
   filter: brightness(0) invert(1);
